@@ -1,0 +1,326 @@
+.contactus-section{
+    position: relative;
+    
+}
+
+.contact-1{
+   
+        .contact-banner{
+            background: rgb(186,223,205);
+            background: linear-gradient(180deg, rgba(186,223,205,1) 0%, rgba(74,124,122,1) 100%, rgba(0,212,255,1) 100%);
+            height: auto;
+            width: 100%;
+            padding-top: 150px;
+
+            @media (max-width:1366px) {
+                padding-top: 50px;
+            }
+           
+
+            .contact-bg{
+                width: 100%;
+                height: 100%;
+                background: url('../images/backgrounds/contact-bg.png');
+                background-repeat: no-repeat;
+                background-size: 50%;
+          
+                background-position: right bottom;
+
+                .w-100{
+                    max-width: 1780px;
+                    display: flex;
+                    padding: 0 50px;
+                    justify-content: center;
+                    
+
+                .contact-container{
+                    padding: 0 0 150px;
+                    display: flex;
+                    flex-wrap: wrap;
+                 
+                    .left{
+                        width: 75%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        .logo{
+                            display: flex;
+                            justify-content: space-between;
+
+                            img{
+
+                            }
+        
+                        }
+
+                        .contact-main{
+                            // font-family: "Montserrat";
+                            color: #2f6466;
+
+                            h1{
+                            
+                                font-size: 10em;
+                                font-weight: 800;
+                               
+                                @media (max-width:1366px) {
+                                    font-size: 8em;
+                                }
+                            }
+                            
+                            h2{
+                                font-size: 2.86em;
+                                font-weight: 700;
+                            }
+                            
+                            p{
+                                font-style: italic;
+                                font-size: 1.7em;
+                            }
+
+                            .input-con{
+                                font-size: 32px;
+                                opacity: .8;
+                                
+                                .name{
+                                    padding: 0 10px;
+                                    width: 85%;
+                                    border-radius: 10px; 
+                                    margin-bottom: 25px;
+                                    border-style: none;
+
+                                
+                                }
+
+                                .phone{
+                                    width: 41%;
+                                    padding: 0 10px;
+                                    margin-right: 34px ;
+                                    border-radius: 10px; 
+                                    margin-bottom: 25px;
+                                    border-style: none;
+
+                                }
+
+                                .email{
+                                    width: 41%;
+                                    padding: 0 10px;
+                                    border-radius: 10px; 
+                                    margin-bottom: 25px;
+                                    border-style: none;
+
+                                }
+
+                                .dropdown{
+                                    width: 85%;
+                                    padding: 0 10px;
+                                    border-radius: 10px; 
+                                    margin-bottom: 25px;
+                                    border-style: none;
+                                }
+
+                                .textarea{
+                                    padding: 0 10px;
+                                    width: 85%;
+                                    height: 50vh;
+                                    border-radius: 10px;
+                                    border-style: none;
+                                }
+
+                                button{
+                                    padding: 20px 110px;
+                                    border-style: none;
+                                    border-radius: 10px;
+                                    font-weight: 700;
+                                    color: #fff;
+                                    background-color: #4a7c7a;
+
+                                }
+                            }
+                        }
+                 
+                  }    
+                
+                  .right{
+
+                    width: 25%;
+                }
+               
+            }
+        }
+        .bottom-content{
+            position: relative;
+            width: 100%;
+            background-color: #abc3c1;
+            padding: 40px 150px;
+            opacity: .8;
+            margin-top: 6vh;
+
+            .location{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .place{
+                    width: 25%;
+                    h1{
+                        font-size: 2em;
+                        font-weight: 700;
+                    }
+                    p{
+                        font-size: 1.5em ;
+                    }
+                }
+
+            }
+        }
+        .p100{
+            padding: 50px 0;
+        }
+    }
+}
+}
+.contact-2{
+    .w-100{
+        // background: url('../images/backgrounds/green background.png');
+        background: linear-gradient(to bottom, #aadfd7, #1a454a);
+        max-width: 1980px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .left{
+            width: 50%;
+            position: relative;
+            margin: 0 20px;
+            align-items: flex-end;
+            align-content: center;
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+
+            .my-card{
+                background: #f8fcfa;
+                border-radius: 20px;
+                margin-top: 20px;
+                padding: 15px;
+                color: #1a454a; 
+                display: flex;
+                flex-direction: row;
+                width: 49rem;
+                
+                img{
+                    width: 100%;
+                }
+
+                .card-left{
+                    padding: 20px;
+                    align-items: start;
+                    align-self: start;
+                    align-content: start;
+                    display: flex;
+                    justify-content:center;
+                    width: 20%;
+                }
+
+                .card-right{
+                    width: 80%;
+                    padding: 10px 30px;
+
+                    h2{
+                        font-size: 32px;
+                        font-weight: 600;
+                    }
+
+                    p{
+                        font-size: 22px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        .right{
+            width: 50%;
+            margin: 0 20px;
+
+            .right-my-card{
+                background: #aadfd7;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                height: 105vh;
+                width: 43%;
+                border-radius: 20px;
+                top: 45rem;
+                position: absolute;
+
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    padding: 20px 50px;
+
+                    h1{
+                        color: #3b7071;
+                        font-size: 55px;
+                        padding: 10px;
+                        font-weight: 600;
+                        font-style: italic;
+                        font-family: "Helvetica Neue LT Std Blck Condensed";
+                    }
+
+                    .yourname{
+                        height: 40px;
+                        margin: 0 auto;
+                        font-style: italic;
+                        margin: 20px 0;
+                        border-radius: 10px;
+                        border: none;
+                    }
+
+                    .email {
+                        height: 40px;
+                        font-style: italic;
+                        margin: 0 auto;
+                        border-radius: 10px;
+                        border: none;
+                        margin: 20px 0;
+                    }
+
+                    .contact {
+                        height: 40px;
+                        font-style: italic;
+                        border: none;
+                        margin: 0 auto;
+                        margin: 20px 0;
+                        border-radius: 10px;
+                    }
+
+                    .message {
+                        font-style: italic;
+                        border: none;
+                        height: 20rem;
+                        border-radius: 10px;
+                        margin: 0 auto;
+                        font-size: 20px;
+                        color: gray;
+                        margin: 20px 0;
+                    }
+
+                    button{
+                        height: 50px;
+                        width: 13rem;
+                        background: #2f6466;
+                        color: white;
+                        border: none;
+                        margin: 20px 0 ;
+                        border-radius: 10px;
+                        align-items: center;
+                        align-content: center;
+                        align-self: center;
+                    }
+                }
+            }
+        }
+    }
+
+}

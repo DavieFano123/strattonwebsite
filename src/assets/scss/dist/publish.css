@@ -1,0 +1,219 @@
+.publish-1 {
+  background: #fff;
+  position: relative;
+}
+.publish-1 .w-100 {
+  height: 85vh;
+  width: 100%;
+  max-width: 1980px;
+}
+.publish-1 .w-100 .flex {
+  display: flex;
+  position: relative;
+}
+.publish-1 .w-100 .flex .left {
+  width: 50%;
+  position: relative;
+  color: #858282;
+  padding: 103px 37px;
+}
+.publish-1 .w-100 .flex .left h1 {
+  font-weight: 700;
+  font-size: 63px;
+  text-align: center;
+}
+.publish-1 .w-100 .flex .left h1 span {
+  color: #f68e56;
+  text-transform: uppercase;
+}
+.publish-1 .w-100 .flex .left p {
+  margin: 0px 40px;
+  padding: 17px 0px;
+  font-size: 22px;
+  text-align: justify;
+}
+.publish-1 .w-100 .flex .right {
+  position: relative;
+  width: 50%;
+  height: 85vh;
+  background: url("../images/backgrounds/publish-bg.png") no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.publish-2 {
+  background: #f68e56;
+  position: relative;
+}
+.publish-2 .w-100 {
+  width: 100%;
+  max-width: 1980px;
+  height: 10vh;
+  margin: 0 auto;
+}
+.publish-2 .w-100 .flex {
+  position: relative;
+  display: flex;
+  text-align: center;
+  padding: 16px 0;
+}
+.publish-2 .w-100 .flex .left {
+  width: 50%;
+  padding-left: 70px;
+}
+.publish-2 .w-100 .flex .left h1 {
+  text-align: left;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+}
+.publish-2 .w-100 .flex .right {
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 126px;
+}
+.publish-2 .w-100 .flex .right button {
+  text-align: center;
+  color: #858282;
+  height: 4rem;
+  width: 18rem;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 17px;
+  border: none;
+}
+
+.publish-3 {
+  background: #fefbea;
+  position: relative;
+  padding-top: 100px;
+}
+.publish-3 .w-100 {
+  height: auto;
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+.publish-3 .w-100 .container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  padding-top: 0;
+}
+.publish-3 .w-100 .container .left {
+  width: 50%;
+}
+.publish-3 .w-100 .container .left img {
+  width: 90%;
+}
+.publish-3 .w-100 .container .right {
+  background: #fff;
+  color: #858282;
+  height: 300px;
+  width: 117rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 36px;
+  font-family: "Montserrat Regular";
+}
+.publish-3 .w-100 .container .right h1 {
+  font-weight: 900;
+}
+.publish-3 .w-100 .container .right p {
+  text-align: justify;
+  font-size: 17px;
+}
+
+.publish-4 {
+  position: relative;
+  background: #f78e57;
+}
+.publish-4 .w-100 {
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+  height: 60vh;
+}
+.publish-4 .w-100 .flex {
+  display: flex;
+  padding: 72px 126px;
+  vertical-align: center;
+}
+.publish-4 .w-100 .flex .left {
+  width: 50%;
+  padding: 59px;
+}
+.publish-4 .w-100 .flex .left h1 {
+  font-size: 68px;
+  line-height: 1;
+  color: #fff;
+  font-family: "NexaSlab201-Black";
+}
+.publish-4 .w-100 .flex .left h1 span {
+  color: #fff;
+}
+.publish-4 .w-100 .flex .left p {
+  font-size: 2.8rem;
+  font-style: italic;
+  line-height: 1;
+  font-family: "NexaSlab201-Black";
+  color: #fff;
+}
+.publish-4 .w-100 .flex .right {
+  width: 60%;
+  text-align: right;
+}
+
+.publish-5 {
+  position: relative;
+}
+.publish-5 .w-100 {
+  height: 80vh;
+  max-width: 1800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 107px 0;
+}
+.publish-5 .w-100 .flex {
+  display: flex;
+  vertical-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+.publish-5 .w-100 .flex .left {
+  width: 30%;
+}
+.publish-5 .w-100 .flex .right {
+  width: 70%;
+}
+.publish-5 .w-100 .flex .right h3 {
+  text-align: right;
+  padding: 3px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.publish-5 .w-100 .flex .right p {
+  text-align: justify;
+  font-size: 20px;
+}
+.publish-5 .w-100 .flex .right span {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 17px;
+  font-weight: 600;
+}
+.publish-5 .w-100 .flex .right label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 900;
+}
