@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {Link} from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import {useHistory} from 'react-router-dom';
 import ButtonComp from "../../common/Button/button.component";
 import HeaderSection from "../../common/Navigation/header.component";
@@ -120,13 +121,6 @@ const DashbaordContainer: React.FC = () => {
             behavior: 'smooth';
     }
 
-    const goToPublish5 = () => {
-        history.push('/publish#publish-5');
-        window.scrollTo(0, 0);
-        behavior: 'smooth';
-    }
-
-
 
     React.useEffect(() => {
         fetch('https://geolocation-db.com/json/2c7ba9a0-fcc9-11eb-80e0-2d180bc7db04')
@@ -231,7 +225,7 @@ const DashbaordContainer: React.FC = () => {
                                 stop us from contiously aspiring to be better, transparent,
                                 helpful and resopnsive. We'll be here throughout your journey!
                             </p>
-                           <Link to="/publish"> <button type="button" className="btn btn-primary"> What They Say </button></Link>
+                           <HashLink to="/publish#publish-5">  What They Say </HashLink>
                         </div>
                     </div>
                 </div>
