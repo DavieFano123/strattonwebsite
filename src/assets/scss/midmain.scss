@@ -119,6 +119,7 @@
     .btn-warning a{
       color: #ffffff;
       text-decoration: none;
+      text-align: center;
   }
 
     .btn-primary {
@@ -135,6 +136,7 @@
         transform: scale(1.05);
       }
     }
+
 
     img {
       height: 125px;
@@ -523,6 +525,7 @@
 .site-footer a:hover {
   color: #cacaca;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .footer-links {

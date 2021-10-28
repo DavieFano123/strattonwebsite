@@ -225,7 +225,7 @@ const DashbaordContainer: React.FC = () => {
                                 stop us from contiously aspiring to be better, transparent,
                                 helpful and resopnsive. We'll be here throughout your journey!
                             </p>
-                           <HashLink to="/publish#publish-5">  What They Say </HashLink>
+                           <HashLink to="/publish#publish-5" >  <button type="button" className="btn btn-primary">  What They Say </button> </HashLink>
                         </div>
                     </div>
                 </div>

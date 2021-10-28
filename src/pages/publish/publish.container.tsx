@@ -422,12 +422,12 @@ const PublishContainer: React.FC<Props> = () => {
                     <p>AUTHORS' BOOKS ARE DISTRIBUTED IN THESE AMAZING CHANNELS</p>
                 </div>
                 <div className="channels-body">
-                    <div className="amazon-kindle"><Image src={AmazonKindle} alt="..." /></div>
-                    <div className="barnes-noble"><Image src={barnesNoble} alt="..." /></div>
-                    <div className="chapters"><Image src={Chapters} alt="..." /></div>
-                    <div className="indigo"><Image src={Indigo} alt="..." /></div>
-                    <div className="ingram"><Image src={Ingram} alt="..." /></div>
-                    <div className="lightning-source"><Image src={LightningSource} alt="..." /></div>
+                    <div className="amazon-kindle"><Image src={AmazonKindle} alt="..."/></div>
+                    <div className="barnes-noble"><Image src={barnesNoble} alt="..."/></div>
+                    <div className="chapters"><Image src={Chapters} alt="..."/></div>
+                    <div className="indigo"><Image src={Indigo} alt="..."/></div>
+                    <div className="ingram"><Image src={Ingram} alt="..."/></div>
+                    <div className="lightning-source"><Image src={LightningSource} alt="..."/></div>
                 </div>
             </div>
             <FooterComp />

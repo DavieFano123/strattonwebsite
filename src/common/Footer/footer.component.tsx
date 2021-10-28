@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {useHistory} from 'react-router-dom';
 import logo from "../../assets/images/logo/Logo_Plain.png";
 import facebook from "../../assets/images/logo/facebook.png";
 import instagram from "../../assets/images/logo/instagram.png";
@@ -9,6 +10,28 @@ import youtube from "../../assets/images/logo/youtube.png";
 interface Props { }
 
 const FooterComponent: React.FC<Props> = () => {
+
+    const [details, setDetails] = React.useState<any>([]);
+    const history = useHistory();
+
+    const goToPublish = () => {
+        history.push('/publish');
+            window.scrollTo(0, 0);
+            behavior: 'smooth';
+    }
+
+    const goToAboutus = () => {
+        history.push('/about-us');
+            window.scrollTo(0, 0);
+            behavior: 'smooth';
+    }
+
+    const goToContactUs = () => {
+        history.push('/contact-us');
+            window.scrollTo(0, 0);
+            behavior: 'smooth';
+    }
+
     return (
         <footer className="site-footer">
             <div className="footer-container">
@@ -24,8 +47,8 @@ const FooterComponent: React.FC<Props> = () => {
                         {/* <h6>Categories</h6> */}
                         <ul className="footer-links">
                             <li><a href="/">Free Publishing Guide</a></li>
-                            <li><a href="/#/publish">Publish Your Book</a></li>
-                            <li><a href="/#/about-us">About Us</a></li>
+                            <li><a onClick={() => goToPublish()}>Publish Your Book</a></li>
+                            <li><a onClick={() => goToAboutus()}>About Us</a></li>
                         </ul>
                     </div>
 
@@ -34,7 +57,7 @@ const FooterComponent: React.FC<Props> = () => {
                         <ul className="footer-links">
                             <li><a href="/">Library</a></li>
                             <li><a href="/">FAQs</a></li>
-                            <li><a href="/#/contact-us">Contact Us</a></li>
+                            <li><a onClick={() => goToContactUs()}>Contact Us</a></li>
                         </ul>
                     </div>
                     </div>
